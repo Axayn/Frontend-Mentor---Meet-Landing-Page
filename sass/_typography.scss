@@ -1,0 +1,77 @@
+// MOBILE
+@mixin text-preset-1--mobile {
+  font-size: 4rem;
+  font-weight: var(--font-weight-black);
+  line-height: 1.1;
+}
+
+@mixin text-preset-2--mobile {
+  font-size: 3.2rem;
+  font-weight: var(--font-weight-black);
+  line-height: 1.1;
+}
+
+@mixin text-preset-3--mobile {
+  font-size: 1.2rem;
+  font-weight: var(--font-weight-black);
+  line-height: 1.1;
+  letter-spacing: 4px;
+}
+
+// Tablet
+@mixin text-preset-1--tablet {
+  font-size: 4.8rem;
+  font-weight: var(--font-weight-black);
+  line-height: 1.1;
+}
+
+@mixin text-preset-2--tablet {
+  font-size: 3.6rem;
+  font-weight: var(--font-weight-black);
+  line-height: 1.1;
+}
+
+@mixin text-preset-3--tablet {
+  font-size: 1.4rem;
+  font-weight: var(--font-weight-black);
+  line-height: 1.1;
+  letter-spacing: 4px;
+}
+
+@mixin text-preset-4--tablet {
+  font-size: 1.6rem;
+  font-weight: var(--font-weight-medium);
+  line-height: 1.5;
+}
+
+// DESKTOP
+@mixin text-preset-1--desktop {
+  font-size: 6.4rem;
+  font-weight: var(--font-weight-black);
+  line-height: 1.1;
+}
+
+@mixin text-preset-2--desktop {
+  font-size: 4rem;
+  font-weight: var(--font-weight-black);
+  line-height: 1.1;
+}
+
+@mixin text-preset-3--desktop {
+  font-size: 1.6rem;
+  font-weight: var(--font-weight-black);
+  line-height: 1.1;
+  letter-spacing: 4px;
+}
+
+@mixin text-preset-4--desktop {
+  font-size: 1.8rem;
+  font-weight: var(--font-weight-medium);
+  line-height: 1.1;
+}
+
+@mixin text-preset-5--desktop {
+  font-size: 1.6rem;
+  font-weight: var(--font-weight-black);
+  line-height: 1.5;
+}
