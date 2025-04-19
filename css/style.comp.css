@@ -318,7 +318,7 @@ textarea:not([rows]) {
 }
 @media screen and (min-width: 90em) {
   .about-section .about-content {
-    max-width: 54.4rem;
+    max-width: 10.4rem;
   }
 }
 .about-section .about-box {

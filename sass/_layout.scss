@@ -161,10 +161,6 @@
 
       display: grid;
       gap: 3.2rem;
-
-      @include respond(desktop) {
-        max-width: 54.4rem;
-      }
     }
 
     &-box {
@@ -175,6 +171,7 @@
     &__subheading {
       @include text-preset-3--mobile;
       color: var(--color-primary-cyan-600);
+      text-transform: uppercase;
 
       @include respond(tablet) {
         @include text-preset-3--tablet;
