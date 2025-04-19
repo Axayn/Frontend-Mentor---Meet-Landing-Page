@@ -203,8 +203,8 @@ textarea:not([rows]) {
   .hero-section .hero-gallery .hero__img--left {
     display: flex;
     margin-bottom: 20%;
-    margin-left: -50%;
-    transform: scale(1.1);
+    margin-left: -60%;
+    transform: scale(1.35);
   }
 }
 @media screen and (min-width: 90em) {
@@ -270,8 +270,8 @@ textarea:not([rows]) {
   .hero-section .hero__img--right-desktop {
     display: flex;
     margin-top: 20%;
-    margin-left: 50%;
-    transform: scale(1.1);
+    margin-left: 60%;
+    transform: scale(1.35);
   }
 }
 
